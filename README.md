@@ -8,17 +8,18 @@ Example:
 
 Sample Input in csv format:
 
-networker_server_details.DATADOMAIN_SERVERS.0.hostname	networker_server_details.DATADOMAIN_SERVERS.0.ip networker_server_details.DATADOMAIN_SERVERS.1.hostname	networker_server_details.DATADOMAIN_SERVERS.1.ip
-dd.hostname	1.1.1.4 dd2.hostname 1.1.1.5
+    networker_server_details.DATADOMAIN_SERVERS.0.hostname	networker_server_details.DATADOMAIN_SERVERS.0.ip networker_server_details.DATADOMAIN_SERVERS.1.hostname	networker_server_details.DATADOMAIN_SERVERS.1.ip
+
+    dd.hostname	1.1.1.4 dd2.hostname 1.1.1.5
 
 Sample Output in yaml format:
 
-networker_server_details:
-    DATADOMAIN_SERVERS:
-    - hostname: "dd.hostname"
-      ip: "1.1.1.4"
-    - hostname: "dd2.hostname"
-      ip: "1.1.1.5"
+    networker_server_details:
+        DATADOMAIN_SERVERS:
+        - hostname: "dd.hostname"
+          ip: "1.1.1.4"
+        - hostname: "dd2.hostname"
+          ip: "1.1.1.5"
 
 #Prerequisites:
 
