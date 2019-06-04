@@ -1,4 +1,4 @@
-csv-yaml
+## CSV to YAML converter
 
 A python project to convert CSV file into a series of YAML files
 
